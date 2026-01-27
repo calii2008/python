@@ -18,7 +18,21 @@ books_df = pd..read_csv('modele18/bestsellers_with_categories_2022_03_27.csv')
 
 st.subheader("summary statistt")
 total_books = books_df.shaape[0]
-unique_tiles = books_
+unique_tiles = books_-+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
