@@ -116,11 +116,14 @@ deletes a movie from the database by its id
     """
     connection = create_connection()
     cursor = connection.cursor()
-    corsor.execute( "DELETE FROM movies WHERE id=?" , (movie_id,))
+    wcorsor.execute( "DELETE FROM movies WHERE id=?" , (movie_id,))
     connection.commit()
     deleted = cursor.rowcount
     connection.close()
     return delete > 0
+
+
+ww
 
 
 
